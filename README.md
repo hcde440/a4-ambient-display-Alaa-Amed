@@ -10,14 +10,14 @@ The tool consists of two physical structures:
 - Ambient Display
 
 ![Good News!](amb.JPG)
-![Good News!](ishe.jpg)
+![Good News!](ishe.JPG)
 
 For the sensor platform, I made a structure with googly eyes that houses a motion sensor, a push button, and an ESP. As for the ambient display, it is made out of a white box with three front windows. The windows are comprised of translucent material to defuse light. There is also an embedded speaker and an ESP.  
 
 Here are some pictures of the circuits:
 
 ![Good News!](cir1.JPG)
-![Good News!](cir2.jpg)
+![Good News!](cir2.JPG)
 
 ### How it Works
 The motion sensor is placed on a front door table in my apartment so that every time I open the door or walk by it the sensor detects motion. When motion is detected, an API call is made to ITSPAAS, which provides a modern, RESTful, scalable solution to the common problem of checking if Donald Trump is still President of the US.
@@ -30,7 +30,7 @@ Data is received from the API in a JSON format, which in turn is published to an
 
 Here is an example of the data published on the MQTT server:
 
-![Good News!](MQTT.JPG)
+![Good News!](MQTT.jpg)
 
 
 
